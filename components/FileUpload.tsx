@@ -47,7 +47,7 @@ export default function FileUpload({ onFileProcessed, onError }: FileUploadProps
 
             onFileProcessed(data, headers);
           },
-          error: (error) => {
+          error: (error: Error) => {
             onError(`Failed to parse CSV: ${error.message}`);
           },
         });
