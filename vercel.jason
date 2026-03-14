@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NEXT_SKIP_MIDDLEWARE_URL_NORMALIZE": "1"
+    }
+  },
+  "ignoreCommand": "exit 0"
+}
